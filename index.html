@@ -10,14 +10,31 @@
 </head>
 <body>
     <header class="banner">
-        <div class="overlay"></div>
-        <div class="bottom-text ">
+        <div class="bottom-text">
             <h1 class="display-4 text-nowrap ">Carrie & Spring</h1>
         </div>
-        
     </header>
-    <div id="countdown" class="text-nowrap countdown container-fluid "></div>
-
+    
+    <div class="container-fluid text-center my-5 countdown">
+        <div class="row">
+            <div class="col-3 fernbg">
+                <div id="days" class="countdown-item"></div>
+                <div class="countdown-item countdown-text">Days</div>
+            </div>
+            <div class="col-3 fernbg">
+                <div id="hours" class="countdown-item"></div>
+                <div class="countdown-item countdown-text">Hours</div>
+            </div>
+            <div  class="col-3 fernbg">
+                <div id="minutes" class="countdown-item"></div>
+                <div class="countdown-item countdown-text fix-center">Minutes</div>
+            </div>
+            <div class="col-3 fernbg">
+                <div id="seconds" class="countdown-item"></div>
+                <div class="countdown-item countdown-text fix-center">Seconds</div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="script.js"></script>

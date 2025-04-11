@@ -14,37 +14,29 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Darken overlay */
 }
-.text-center-content {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
 .bottom-text {
     position: absolute;
     bottom: 20px; 
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    
 }
-.countdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto; 
-    max-width: 90vw; 
-    padding: 10px 20px; 
-    font-size: 4vw;
-    background-color: #9CAF88;
-    background-size: cover;
-    background-position: center;
-    /*background-repeat: no-repeat;*/
-    border-radius: 12px;
-    margin-top: 50px;
-    text-align: center; 
-    word-wrap: break-word; 
+.countdown-text{
+    font-size: 12px;
+    text-align: center;
+    margin-left:5%;
+    font-family: "dancing Script", sans-serif;
 }
 
+
+.fernbg {
+    background-image: url('assets/fern.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 100px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-text: center;
+}

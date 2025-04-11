@@ -17,5 +17,4 @@ const countdownInterval = setInterval(() => {
     document.getElementById('hours').innerHTML = hours;
     document.getElementById('minutes').innerHTML = minutes;
     document.getElementById('seconds').innerHTML = seconds;
-
 }, 1000);

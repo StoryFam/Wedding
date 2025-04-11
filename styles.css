@@ -35,8 +35,8 @@
     background-repeat: no-repeat;
     background-position: center; 
     border-radius: 100px;
-    padding: 20px; 
+    padding: px; 
     display: flex;
     flex-direction: column;
-    align-text: center;
+    
 }

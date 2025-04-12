@@ -6,6 +6,7 @@
     height: 60vh;
     color: white;
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -28,15 +29,38 @@
     font-family: "dancing Script", sans-serif;
 }
 
+@media (max-width: 768px) { 
+  .fernbg {
+    background-size: cover;
+  }
+  .banner{
+    background-size: cover;
+  }
+}
+
+@media (min-width: 769px) { 
+  .fernbg {
+    background-size: contain;
+    min-height: 500px;
+  }
+  .banner {
+    background-size: cover;
+    
+}
+}
 
 .fernbg {
-    background-image: url('assets/fern.png'); 
-    background-size: cover; 
+    background-image: url('assets/fern.png');
     background-repeat: no-repeat;
     background-position: center; 
-    border-radius: 100px;
     padding: 20px; 
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+}
+.divider{
+    border: none;
+    border-top: 2px solid #007bff; 
+    width: 80%;
+    margin: 20px auto;
 }

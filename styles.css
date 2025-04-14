@@ -91,7 +91,7 @@
 }
 
 .middle-column img {
-  width: 100%;
+  max-width: 300px;
   height: auto; 
   margin: 0; 
 
@@ -101,5 +101,11 @@
   padding-left: 5%;
 }
 
-
-
+@media (max-width: 768px) {
+  .grid-container {
+    max-width: 95%; 
+  }
+  .middle-column img {
+    max-width: 250px; /
+  }
+}

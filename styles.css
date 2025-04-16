@@ -6,7 +6,6 @@
   height: 60vh;
   color: white;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -42,19 +41,17 @@
   .banner{
     background-size: cover;
   }
+  
 }
-
 @media (min-width: 769px) { 
   .fernbg {
     background-size: contain;
     min-height: 500px;
   }
   .banner {
-    background-size: cover;
-    
+    background-size: cover;   
 }
 }
-
 .fernbg {
   background-image: url('assets/fern.png');
   background-repeat: no-repeat;
@@ -71,26 +68,37 @@
   width: 80%;
   margin: 20px auto;
 }
-
-
-
-
 .dancing{
   font-family: "dancing Script", sans-serif;
 }
 .typewriter{
   font-family: "instrument Serif", sans-serif;
 }
-/* Grid stuff*/
-
+.signature{
+  position: relative;
+  top:30px;
+  left:60%;
+  font-size: 20px;
+}
+.line-title{
+  position:relative;
+  font-size: 4vw;
+}
 .description{
-  font-size: small;
-  padding-left: 5%;
+  font-size: 3vw;
+  text-align: left;
+  margin:0;
+  padding:0
+}
+.low-margin{
+  padding-left: 5px;
+  
 }
 .wed-img{
   width:100%;
   height: auto;
   max-width: 300px;
+  margin:0;
 }
 .top-img{
   border-top-right-radius: 10px;
